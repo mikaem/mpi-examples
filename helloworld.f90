@@ -1,5 +1,4 @@
-source ~/.vim/plugin/comments.vima
-_world
+program hello_world
 
   ! Include the MPI library definitons:
   include 'mpif.h'
