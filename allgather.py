@@ -5,5 +5,5 @@ rank = comm.Get_rank()
 data = rank**2
 data = comm.allgather(data)
 
-print "On rank", rank,"data =", data
+print("On rank", rank,"data =", data)
     

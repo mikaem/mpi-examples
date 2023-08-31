@@ -5,5 +5,5 @@ rank = comm.Get_rank()
 data = range(comm.Get_size())
 data = comm.alltoall(data)
 
-print "On rank", rank,"data =", data
+print("On rank", rank,"data =", data)
     

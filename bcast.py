@@ -9,4 +9,4 @@ if rank == 0:
 message = comm.bcast(message, root=0)
 
 if rank > 0:
-    print "Rank 0 says", message, "to rank", rank
+    print("Rank 0 says", message, "to rank", rank)

@@ -11,5 +11,5 @@ recvarray = np.zeros(N)
 comm.Send(sendarray, dest=(rank+1)%2)
 comm.Recv(recvarray, source=(rank+1)%2)
 
-print "Rank", rank, "sent the array    ", sendarray
-print "Rank", rank, "received the array", recvarray
+print("Rank", rank, "sent the array    ", sendarray)
+print("Rank", rank, "received the array", recvarray)

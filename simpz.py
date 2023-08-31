@@ -34,5 +34,3 @@ exact = f.integrate((x, (a, b)))
 if rank == 0:
     print("Integral of f(x) from ", a, "to", b, "is", I)
     print("Exact                             = ", exact.evalf())
-
-

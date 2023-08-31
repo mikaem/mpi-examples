@@ -13,7 +13,7 @@ while not stop:
     sumreceived += recieved
     if recieved == rank: stop = True
     
-print "Sum received =", sumreceived
+print("Sum received =", sumreceived)
 
 
 

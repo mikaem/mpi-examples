@@ -8,4 +8,4 @@ if rank == 0:
     
 data = comm.scatter(data, root=0)
 
-print "Rank", rank, "data =", data
+print("Rank", rank, "data =", data)

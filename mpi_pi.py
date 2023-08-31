@@ -25,5 +25,5 @@ totalcount = comm.reduce(mycount, root=0)
 # Compute value of PI
 if rank == 0:
     PI = 4*float(totalcount) / (N*size)
-    print "Pi =", PI
-    print "Error =", abs(np.pi-PI)
+    print("Pi =", PI)
+    print("Error =", abs(np.pi-PI))
