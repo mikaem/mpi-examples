@@ -1,0 +1,10 @@
+name: mpi4py
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - scipy
+  - matplotlib
+  - ipython
+  - pip
+  - mpi4py
