@@ -1,4 +1,4 @@
-name: mpi4py
+name: mpi-example
 channels:
   - conda-forge
 dependencies:
